@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:paddingTop="@dimen/activity_padding"
+              android:paddingBottom="@dimen/activity_padding"
+              android:gravity="center_horizontal"
+              android:background="@color/city_selection_background"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/activity_city_selection_textview_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/city_selection_onboarding"
+        android:textColor="@color/primary_text"
+        android:textSize="20sp"
+        android:layout_marginTop="48dp"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="72dp">
+
+        <fragment
+            android:id="@+id/activity_city_selection_fragment"
+            android:name="com.piercezaifman.mycitymaps.fragment.CitySelectionFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout="@layout/fragment_city_selection"/>
+    </FrameLayout>
+
+</LinearLayout>

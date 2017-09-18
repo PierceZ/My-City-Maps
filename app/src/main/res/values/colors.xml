@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#388E3C</color>
+    <color name="colorPrimaryDark">#1B5E20</color>
+    <color name="colorAccent">#81C784</color>
+
+    <color name="activity_background">#F2F2F2</color>
+    <color name="card_background">#FFFFFF</color>
+
+    <color name="primary_text">#333333</color>
+    <color name="secondary_text">#999999</color>
+    <color name="title_text">#666666</color>
+
+    <color name="city_selection_background">#F2F2F2</color>
+</resources>

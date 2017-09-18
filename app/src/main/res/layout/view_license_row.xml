@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/view_license_row_textview_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:textColor="@color/primary_text"
+        android:textSize="14sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/view_license_row_textview_disclaimer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/primary_text"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/view_license_row_textview_license"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:foreground="@drawable/link_background_selector"
+        android:paddingBottom="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="6dp"
+        android:textColorLink="@color/colorPrimary"
+        android:text="@string/license_details"
+        android:textColor="@color/primary_text"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:id="@+id/view_license_row_textview_license_offline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="4dp"
+        android:foreground="@drawable/link_background_selector"
+        android:textColorLink="@color/colorPrimary"
+        android:paddingBottom="6dp"
+        android:paddingRight="6dp"
+        android:paddingTop="6dp"
+        android:text="@string/license_details_offline"
+        android:textColor="@color/primary_text"
+        android:textSize="12sp"/>
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="feedback_key_city" translatable="false">City</string>
+    <string name="feedback_key_title" translatable="false">Title</string>
+    <string name="feedback_title_city" translatable="false">City</string>
+    <string name="feedback_title_map" translatable="false">Map</string>
+    <string name="feedback_title_general" translatable="false">General</string>
+</resources>

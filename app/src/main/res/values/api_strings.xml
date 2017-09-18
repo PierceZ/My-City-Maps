@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="google_maps_key" translatable="false">YOUR_KEY</string>
+    <string name="firebase_url_maps" translatable="false">YOUR_URL</string>
+    <string name="firebase_cities_reference" translatable="false">cities</string>
+    <string name="doorbell_key" translatable="false">YOUR_KEY</string>
+    <string name="ga_tracking_id" translatable="false">YOUR_ID</string>
+</resources>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:paddingLeft="@dimen/activity_padding"
+        android:paddingRight="@dimen/activity_padding"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:animateLayoutChanges="true"
+            android:id="@+id/fragment_city_selection_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <com.piercezaifman.mycitymaps.HintSpinner
+                android:id="@+id/fragment_city_selection_country_spinner"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="20sp"
+                app:hint="@string/city_selection_country_hint"/>
+
+            <com.piercezaifman.mycitymaps.HintSpinner
+                android:id="@+id/fragment_city_selection_state_spinner"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="20sp"
+                android:visibility="gone"
+                app:hint="@string/city_selection_state_hint"/>
+
+            <com.piercezaifman.mycitymaps.HintSpinner
+                android:id="@+id/fragment_city_selection_city_spinner"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:textSize="20sp"
+                android:visibility="gone"
+                app:hint="@string/city_selection_city_hint"/>
+
+            <TextView
+                android:id="@+id/fragment_city_selection_textview_cantfindcity"
+                android:layout_marginBottom="12dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/secondary_text"
+                android:clickable="true"
+                android:padding="8dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/city_selection_cant_find_city"/>
+
+            <LinearLayout
+                android:id="@+id/fragment_city_selection_license_agree"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/fragment_city_selection_textview_license"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:layout_marginBottom="6dp"
+                    android:foreground="@drawable/link_background_selector"
+                    android:textColorLink="@color/colorPrimary"
+                    android:textColor="@color/primary_text"/>
+                <Button
+                    android:id="@+id/fragment_city_selection_button_license"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/eula_agree"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/fragment_city_selection_loading_section"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+
+            <ProgressBar
+                style="@style/Base.Widget.AppCompat.ProgressBar"
+                android:layout_width="84dp"
+                android:layout_height="84dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="@string/city_selection_loading"
+                android:textColor="@color/primary_text"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

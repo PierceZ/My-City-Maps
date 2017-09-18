@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+        android:layout_marginTop="@dimen/activity_padding"
+        android:layout_marginLeft="@dimen/custom_dialog_view_margin"
+        android:layout_marginRight="@dimen/custom_dialog_view_margin"
+        android:text="@string/feedback_missing_city_request"
+        android:layout_width="wrap_content"
+        android:textColor="@color/primary_text"
+        android:textSize="16sp"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:layout_marginTop="@dimen/activity_padding"
+        android:layout_marginLeft="@dimen/custom_dialog_view_margin"
+        android:layout_marginRight="@dimen/custom_dialog_view_margin"
+        android:layout_marginBottom="@dimen/activity_padding"
+        android:id="@+id/dialog_feedback_edittext"
+        android:hint="@string/feedback_missing_city_edittext_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

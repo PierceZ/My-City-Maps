@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">My City Maps</string>
+
+    <string name="retry">Retry</string>
+    <string name="send">Send</string>
+
+    <string name="nav_home">Maps</string>
+    <string name="nav_city">Change city</string>
+    <string name="nav_feedback">Feedback</string>
+    <string name="nav_about">About</string>
+
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+
+    <string name="map_error_loading">Something went wrong loading the map. Try again later.</string>
+    <string name="map_error_not_finished_loading">Please wait until the map has finished loading.</string>
+    <string name="map_error_finding_location">Unable to find your location. Make sure GPS is enabled. </string>
+    <string name="map_find_nearby">Find Nearby</string>
+    <string name="map_nearest_marker_title">Nearest location</string>
+    <string name="map_nearest_marker_snippet">(Tap for directions)</string>
+
+    <string name="nearby_locations_header">NEARBY LOCATIONS</string>
+    <string name="nearby_locations_distance_meters">%.0f M</string>
+    <string name="nearby_locations_distance_kilometers">%.1f KM</string>
+    <string name="nearby_locations_distance_kilometers_max">1000 KM+</string>
+
+    <string name="city_selection_onboarding">To get started, choose your city.</string>
+    <string name="city_selection_cant_find_city">Can\'t find your city?</string>
+    <string name="city_selection_loading">Loading cities…</string>
+    <string name="city_selection_country_hint">Pick a country…</string>
+    <string name="city_selection_state_hint">Pick a province/state…</string>
+    <string name="city_selection_city_hint">Pick a city…</string>
+    <string name="city_selection_loading_error">Failed to load cities</string>
+    <string name="city_selection_toast">City set to %1$s</string>
+
+    <string name="home_failed_load_maps">Failed to load maps</string>
+    <string name="home_recent_maps">RECENT</string>
+    <string name="home_all_maps">ALL</string>
+    <string name="home_search_hint">Search maps…</string>
+
+    <string name="feedback_we_appreciate">We appreciate your feedback.</string>
+    <string name="feedback_missing_city_request">Send us the name of your city, including the country and state/province if applicable.</string>
+    <string name="feedback_missing_city_edittext_hint">Country, State, City</string>
+    <string name="feedback_missing_city_title">Missing city</string>
+    <string name="feedback_send_city_feedback">Can\'t find your city</string>
+    <string name="feedback_send_map_feedback">Can\'t find the maps you want</string>
+    <string name="feedback_send_email">General feedback</string>
+    <string name="feedback_add_email_optional">Your email address (optional)</string>
+    <string name="feedback_map_edittext_hint">What type of maps would you like to see?</string>
+    <string name="feedback_general_edittext_hint">What\'s on your mind?</string>
+
+    <string name="eula_warning">By continuing to use this app, you agree to the terms and conditions of the End User License Agreement, and the following Terms of Use.</string>
+    <string name="eula_highlight">End User License Agreement</string>
+    <string name="eula_city_highlight">Terms of Use</string>
+    <string name="eula_agree">Agree and continue</string>
+
+    <string name="license_list_title">This app contains data from the following sources:</string>
+    <string name="license_details">Full license details</string>
+    <string name="license_details_offline">Full license details (offline)</string>
+
+    <string name="about_software_licenses">Software licenses</string>
+
+
+
+
+    <string name="end_user_license_agreement">
+        My City Maps\n
+Copyright &#169; 2017 Pierce Zaifman\n
+\n
+*** END USER LICENSE AGREEMENT ***\n
+\n
+IMPORTANT: PLEASE READ THIS LICENSE CAREFULLY BEFORE USING THIS SOFTWARE.\n
+\n
+1. LICENSE\n
+\n
+By receiving, opening the file package, and/or using My City Maps("Software") containing this software, you agree that this End User License Agreement(EULA) is a legally binding and valid contract and agree to be bound by it. You agree to abide by the intellectual property laws and all of the terms and conditions of this Agreement.\n
+\n
+Unless you have a different license agreement signed by Pierce Zaifman your use of My City Maps indicates your acceptance of this license agreement and warranty.\n
+\n
+Subject to the terms of this Agreement, Pierce Zaifman grants to you a limited, non-exclusive, non-transferable license, without right to sub-license, to use My City Maps in accordance with this Agreement and any other written agreement with Pierce Zaifman. Pierce Zaifman does not transfer the title of My City Maps to you; the license granted to you is not a sale. This agreement is a binding legal agreement between Pierce Zaifman and the purchasers or users of My City Maps.\n
+\n
+If you do not agree to be bound by this agreement, remove My City Maps from your device now.\n
+\n
+2. DISTRIBUTION\n
+\n
+My City Maps and the license herein granted shall not be copied, shared, distributed, re-sold, offered for re-sale, transferred or sub-licensed in whole or in part except that you may make one copy for archive purposes only. For information about redistribution of My City Maps contact Pierce Zaifman.\n
+\n
+3. USER AGREEMENT\n
+\n
+3.1 Use\n
+\n
+Your license to use My City Maps is limited to the number of licenses purchased by you. You shall not allow others to use, copy or evaluate copies of My City Maps.\n
+\n
+3.2 Use Restrictions\n
+\n
+You shall use My City Maps in compliance with all applicable laws and not for any unlawful purpose. Without limiting the foregoing, use, display or distribution of My City Maps together with material that is pornographic, racist, vulgar, obscene, defamatory, libelous, abusive, promoting hatred, discriminating or displaying prejudice based on religion, ethnic heritage, race, sexual orientation or age is strictly prohibited.\n
+\n
+Each licensed copy of My City Maps may be used on one single device by one user. Use of My City Maps means that you have loaded, installed, or run My City Maps on a computer or similar device. If you install My City Maps onto a multi-user platform, server or network, each and every individual user of My City Maps must be licensed separately.\n
+\n
+You may make one copy of My City Maps for backup purposes, providing you only have one copy installed on one device being used by one person. Other users may not use your copy of My City Maps. The assignment, sublicense, networking, sale, or distribution of copies of My City Maps are strictly forbidden without the prior written consent of Pierce Zaifman. It is a violation of this agreement to assign, sell, share, loan, rent, lease, borrow, network or transfer the use of My City Maps. If any person other than yourself uses My City Maps registered in your name, regardless of whether it is at the same time or different times, then this agreement is being violated and you are responsible for that violation!\n
+\n
+3.3 Copyright Restriction\n
+\n
+This Software contains copyrighted material, trade secrets and other proprietary material. You shall not, and shall not attempt to, modify, reverse engineer, disassemble or decompile My City Maps. Nor can you create any derivative works or other works that are based upon or derived from My City Maps in whole or in part.\n
+\n
+Pierce Zaifman\'s name, logo and graphics file that represents My City Maps shall not be used in any way to promote products developed with My City Maps. Pierce Zaifman retains sole and exclusive ownership of all right, title and interest in and to My City Maps and all Intellectual Property rights relating thereto.\n
+\n
+Copyright law and international copyright treaty provisions protect all parts of My City Maps, products and services. No program, code, part, image, audio sample, or text may be copied or used in any way by the user except as intended within the bounds of the single user program. All rights not expressly granted hereunder are reserved for Pierce Zaifman.\n
+\n
+3.4 Limitation of Responsibility\n
+\n
+You will indemnify, hold harmless, and defend Pierce Zaifman, his employees, agents and distributors against any and all claims, proceedings, demand and costs resulting from or in any way connected with your use of Pierce Zaifman\'s Software.\n
+\n
+In no event (including, without limitation, in the event of negligence) will Pierce Zaifman, his employees, agents or distributors be liable for any consequential, incidental, indirect, special or punitive damages whatsoever (including, without limitation, damages for loss of profits, loss of use, business interruption, loss of information or data, or pecuniary loss), in connection with or arising out of or related to this Agreement, My City Maps or the use or inability to use My City Maps or the furnishing, performance or use of any other matters hereunder whether based upon contract, tort or any other theory including negligence.\n
+\n
+Pierce Zaifman\'s entire liability, without exception, is limited to the customers\' reimbursement of the purchase price of the Software (maximum being the lesser of the amount paid by you and the suggested retail price as listed by Pierce Zaifman) in exchange for the return of the product, all copies, registration papers and manuals, and all materials that constitute a transfer of license from the customer back to Pierce Zaifman.\n
+\n
+3.5 Warranties\n
+\n
+Except as expressly stated in writing, Pierce Zaifman makes no representation or warranties in respect of this Software and expressly excludes all other warranties, expressed or implied, oral or written, including, without limitation, any implied warranties of merchantable quality or fitness for a particular purpose.\n
+\n
+3.6 Governing Law\n
+\n
+This Agreement shall be governed by the law of the Canada applicable therein. You hereby irrevocably attorn and submit to the non-exclusive jurisdiction of the courts of Canada therefrom. If any provision shall be considered unlawful, void or otherwise unenforceable, then that provision shall be deemed severable from this License and not affect the validity and enforceability of any other provisions.\n
+\n
+3.7 Termination\n
+\n
+Any failure to comply with the terms and conditions of this Agreement will result in automatic and immediate termination of this license. Upon termination of this license granted herein for any reason, you agree to immediately cease use of My City Maps and destroy all copies of My City Maps supplied under this Agreement. The financial obligations incurred by you shall survive the expiration or termination of this license.\n
+\n
+4. DISCLAIMER OF WARRANTY\n
+\n
+THIS SOFTWARE AND THE ACCOMPANYING FILES ARE SOLD "AS IS" AND WITHOUT WARRANTIES AS TO PERFORMANCE OR MERCHANTABILITY OR ANY OTHER WARRANTIES WHETHER EXPRESSED OR IMPLIED. THIS DISCLAIMER CONCERNS ALL FILES GENERATED AND EDITED BY My City Maps AS WELL.\n
+\n
+5. CONSENT OF USE OF DATA\n
+\n
+You agree that Pierce Zaifman may collect and use information gathered in any manner as part of the product support services provided to you, if any, related to My City Maps. Pierce Zaifman may also use this information to provide notices to you which may be of use or interest to you.\n
+
+    </string>
+
+</resources>

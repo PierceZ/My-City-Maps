@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_category_home" translatable="false">Home</string>
+    <string name="ga_action_map_picked" translatable="false">Map picked</string>
+
+    <string name="ga_category_map" translatable="false">Map</string>
+    <string name="ga_action_show_nearest" translatable="false">Show nearest</string>
+    <string name="ga_action_request_location_permission" translatable="false">Request location permission</string>
+
+    <string name="ga_label_yes" translatable="false">Yes</string>
+    <string name="ga_label_no" translatable="false">No</string>
+</resources>
